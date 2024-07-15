@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Examples</title>
+</head>
+<body>
+    <!-- 1. Skeleton of HTML document -->
+    <!-- 2. Tags and attributes -->
+    <h1 id="main-heading" class="heading">Welcome to HTML Examples</h1>
+
+    <!-- 3. Block and inline elements -->
+    <p>This is a <strong>block-level</strong> element.</p>
+    <span>This is an <em>inline-level</em> element.</span>
+
+    <!-- 4. Formatting tags -->
+    <pre>This is preformatted text</pre>
+    <sup>This is superscript</sup>
+    <sub>This is subscript</sub>
+    <br>This is a line break
+
+    <!-- 5. Different types of links -->
+    <p>Click <a href="https://www.example.com">here</a> for example link</p>
+    <p>Click <a href="#section">here</a> for internal link</p>
+
+    <!-- 6. Image tag and attributes -->
+    <img src="example.jpg" alt="Example Image" width="200" height="150">
+
+    <!-- 7. Table with cell merge -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Header 1</th>
+                <th rowspan="2">Header 2</th>
+            </tr>
+            <tr>
+                <th>Sub Header 1</th>
+                <th>Sub Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td rowspan="2">Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- 8. Event attributes -->
+    <button onclick="alert('Button clicked')">Click me</button>
+
+    <!-- 9. Login form with POST method -->
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- 10. Form with radio buttons and checkboxes -->
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br>
+    </form>
+
+    <!-- 11. Form to upload images -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="image">Select image to upload:</label>
+        <input type="file" id="image" name="image" accept="image/png, image/jpeg, image/gif" title="Select Image" placeholder="Choose an image to upload">
+        <button type="submit">Upload</button>
+    </form>
+
+    <!-- 12. Example of id and class attributes -->
+    <div id="unique-element" class="common-element">This is an element with ID and class</div>
+
+    <!-- 13. HTML5 tags -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section">
+        <h2>New HTML5 Section</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>Article Content</p>
+        </article>
+    </section>
+    <footer>
+        &copy; 2024 - All rights reserved
+    </footer>
+</body>
+</html>
