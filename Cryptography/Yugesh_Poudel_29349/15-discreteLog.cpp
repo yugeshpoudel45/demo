@@ -26,7 +26,7 @@ int main()
         if (choice == 'n')
             break;
     } while (true);
-    cout << "\nName: Yugesh Poudel\nRoll no: 22\n";
+//    cout << "\nName: Yugesh Poudel\nRoll no: 22\n";
     return 0;
 }
 

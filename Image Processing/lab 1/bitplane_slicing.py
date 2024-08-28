@@ -1,7 +1,7 @@
 # DONE || 2024-07-05 || Bit Plane Slicing of an Image
 import cv2 as cv
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 image_path = "photos/bird.jpg"
 meroImage = cv.imread(image_path)
